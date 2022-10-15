@@ -21,7 +21,7 @@ export default {
   methods: {
     toggle (event) {
       const className = 'is-active';
-      event.target.classList.toggle(className);Wx``
+      event.target.classList.toggle(className);
       const navbar = document.getElementById('navbar');
       navbar.classList.toggle(className)
     }
