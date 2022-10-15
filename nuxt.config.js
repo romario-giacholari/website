@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'website',
+    title: 'giacholari.com',
     htmlAttrs: {
       lang: 'en'
     },
@@ -15,7 +15,12 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        type:"text/css",
+        href: "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+      }
     ]
   },
 
